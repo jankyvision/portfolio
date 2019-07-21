@@ -1,0 +1,233 @@
+@media (max-width: 480px) {
+    .header-14-sub {min-height: 300px;}
+    }
+    
+    @media (min-width: 481px) and (max-width: 767px) {
+    .header-14-sub {min-height: 500px;}
+    }
+    
+
+    @media (min-width: 1200px) {
+    .header-14-sub {min-height: 1200px;}
+    }
+
+    @media (min-width: 768px) and (max-width: 979px) {
+      .header-14-sub { min-height: 700px;}
+    }
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow: auto;
+}
+
+.navbar {
+    padding-right: 100px;
+    padding-left: 100px;
+    height: 125px;
+    
+}
+
+
+
+.mynav a {
+    margin-right: 30px;
+    
+}
+
+.mynav a:hover {
+    border-bottom: 3px solid rgb(242, 180, 65);
+    color: rgb(242, 180, 65) !important;
+}
+
+.active a {
+    border-bottom: 3px solid rgb(242, 180, 65);
+    color: rgb(242, 180, 65) !important;
+}
+
+
+.navbar.scrolled {
+    padding-right: 100px;
+    padding-left: 100px;
+    height: 75px;
+ 
+    
+}
+.bg-light {
+    transition:750ms ease;
+background-color: transparent !important;
+}
+.bg-light.scrolled {
+    background-color: whitesmoke !important;
+    }
+
+
+
+
+
+
+
+.hero-section {
+    background-color: #ffffff;
+    max-width: 100%;
+    min-height: 300px;
+    transition: all 0.5s ease;
+    
+}
+
+.container-section {
+ 
+    padding: 100px;
+    text-align: left;
+    
+}
+
+.container-section h1 {
+    color: rgb(46, 50, 64);
+    font-weight: bold;
+}
+
+.container-section p {
+    color: rgb(242, 180, 65); 
+}
+
+.summary {
+    min-height: 400px; /* set default height */
+    transition: all 0.5s ease; /* optional css transition effect */
+    color: rgb(46, 50, 64);
+    padding: 100px;
+    display: flex;
+    position: relative;
+}
+
+
+.experience {
+background-color: rgb(46, 50, 64);
+min-height: 600px;
+display: flex;
+position: relative;
+}
+.experience .left {
+    padding-left: 100px;
+    padding-top: 75px;
+    width: 50%;
+    color: rgb(242, 180, 65);
+}
+.experience .right {
+    width: 50%;
+    padding: 50px;
+    color: rgb(242, 180, 65);
+}
+.experience-1 {
+    color: rgb(242, 180, 65);
+    padding-top: 30px;
+}
+
+
+.education {
+    background-color: rgb(242, 180, 65);
+    min-height: 600px;
+    display: flex;
+    position: relative;
+}
+.education .left {
+    padding-left: 100px;
+    padding-top: 75px;
+    width: 50%;
+    color: rgb(46, 50, 64);
+}
+.education .right {
+    padding: 50px;
+    width: 50%;
+    color: rgb(46, 50, 64);
+}
+
+.education-1 {
+    color: rgb(46, 50, 64);
+    padding-top: 30px;
+}
+
+
+footer {
+    position: bottom;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: rgb(46, 50, 64);;
+    text-align: left;
+    display: flex;
+    position: relative;
+    min-height: 400px; /* set default height */
+    transition: all 0.5s ease; /* optional css transition effect */
+  }
+
+  footer .left {
+    
+    padding-top: 50px;
+    padding-left: 100px;
+    width: 50%;
+    color: rgb(46, 50, 64);
+}
+
+
+a {
+    padding-top: 100px;
+    text-decoration: none;
+    color: rgb(46, 50, 64);
+}
+
+.email {
+    padding-top: 100px;
+}
+
+.email:hover {
+    color: rgb(242, 180, 65);
+    opacity: 0.7;
+    text-decoration: none;
+    
+  }
+
+footer .right {
+    padding: 50px;
+    width: 50%;
+    color: rgb(46, 50, 64);
+}
+
+.social-icons {
+    padding-top: 50px;
+}
+
+
+.fab {
+    padding-right: 50px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    border-color: rgb(46, 50, 64);
+    
+  }
+
+
+  .fab:hover {
+    color: rgb(242, 180, 65);
+    opacity: 0.7;
+  }
+
+.fab fa-linkedin-in {
+
+    color:rgb(46, 50, 64);
+
+}
+
+.fab fa-github {
+    color:rgb(46, 50, 64);
+}
+
+
+.fab fa-dribbble {
+    color:rgb(46, 50, 64);
+}
+
