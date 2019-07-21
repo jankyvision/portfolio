@@ -1,5 +1,14 @@
 @media (max-width: 480px) {
     .header-14-sub {min-height: 300px;}
+
+
+    .navbar { height: 125px;}
+
+    .summary { padding:10px;}
+
+    .right {width: 95%}
+
+    .left {width: 95%}
     }
     
     @media (min-width: 481px) and (max-width: 767px) {
