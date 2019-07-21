@@ -2,7 +2,8 @@
     .header-14-sub {min-height: 300px;}
 
 
-    .navbar { height: 125px;}
+    .navbar { height: 125px;
+    padding: 0px;}
 
     .summary { padding:10px;}
 
