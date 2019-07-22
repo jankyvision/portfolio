@@ -4,9 +4,26 @@
     .header-14-sub {min-height: 300px;}
 
     #title-section {
-        padding-left: 50px;
+        /* padding-left: 50px; */
         padding-bottom: 50px;
+        width: 85%;
+        margin: 0 auto;
+        text-align: center;
+    }
 
+    #social-icons {
+        padding-left: 25px;
+        width: 85%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+    #footer-menu {
+        /* padding-bottom: 50px; */
+        width: 85%;
+        margin: 0 auto;
+        text-align: center;
     }
 
     }
@@ -14,8 +31,26 @@
     .header-14-sub {min-height: 500px;}
 
     #title-section {
-        padding-left: 50px;
+        /* padding-left: 50px; */
         padding-bottom: 50px;
+        width: 85%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #social-icons {
+        padding-left: 25px;
+        width: 85%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+    #footer-menu {
+        /* padding-bottom: 50px; */
+        width: 85%;
+        margin: 0 auto;
+        text-align: center;
     }
 
     }
@@ -126,7 +161,9 @@ background-color: transparent !important;
     }
 
  #experience {
-        padding: 100px;
+        padding-top:100px;
+        width: 85%;
+        margin: 0 auto;
         color: rgb(242, 180, 65);
         
     }
@@ -156,8 +193,10 @@ background-color: transparent !important;
     }
 
  #education {
-        padding: 100px;
-        color: rgb(46, 50, 64);
+    padding-top:100px;
+    width: 85%;
+    margin: 0 auto;
+    color: rgb(46, 50, 64);
         
     }
 
@@ -177,7 +216,10 @@ background-color: transparent !important;
     margin-bottom: 50px;
 }
 
-
+.container-fluid3 {
+    width:100%;
+    
+    }
 
 footer {
     position: bottom;
@@ -191,16 +233,17 @@ footer {
     position: relative;
     min-height: 400px; /* set default height */
     transition: all 0.5s ease; /* optional css transition effect */
+    margin-bottom: 25px;
   }
 
-  footer .left {
-    
-    padding-top: 50px;
-    padding-left: 100px;
-    width: 50%;
-    color: rgb(46, 50, 64);
-}
 
+  #universal-footer {
+    padding-top:50px;
+    width: 85%;
+    margin: 0 auto;
+
+    
+}
 
 a {
     padding-top: 100px;
@@ -212,9 +255,7 @@ a {
     padding-top: 100px;
 }
 
-.contact {
-    padding-top:100px;
-}
+
 
 .email:hover {
     color: rgb(242, 180, 65);
@@ -223,15 +264,28 @@ a {
     
   }
 
-footer .right {
+/* footer .left {
+    
+    padding-top: 50px;
+    padding-left: 100px;
+    width: 50%;
+    color: rgb(46, 50, 64);
+} */
+
+
+  /* .contact {
+    padding-top:100px;
+} */
+
+/* footer .right {
     padding: 50px;
     width: 50%;
     color: rgb(46, 50, 64);
-}
+} */
 
-.social-icons {
+/* .social-icons {
     padding-top: 50px;
-}
+} */
 
 
 .fab {
