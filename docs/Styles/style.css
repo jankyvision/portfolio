@@ -12,6 +12,7 @@
     .div .col-sm {
         line-height: normal;
     }
+
     }
     @media (min-width: 481px) and (max-width: 767px) {
     .header-14-sub {min-height: 500px;}
@@ -24,6 +25,7 @@
     .div .col-sm {
         line-height: none;
     }
+
     }
     
     @media (min-width: 1200px) {
@@ -33,19 +35,7 @@
     @media (min-width: 768px) and (max-width: 979px) {
       .header-14-sub { min-height: 700px;}
 
-      #title-section {
-        padding-left: 50px;
-        padding-bottom: 50px;
-      }
-
-      .div .col-sm {
-        line-height: none;
     }
-
-    }
-
-
-
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -53,17 +43,15 @@ body {
 }
 
 .navbar {
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
     height: 125px;
     
 }
 
-#navbarNavDropdown{
-    background-color:#ffffff;
-}
-
-
+.dropdown { position: static; }
+.dropdown-menu { width: 100%; text-align: center; }
+.dropdown-menu>li { display: inline-block; }
 
 .mynav a {
     margin-right: 30px;
@@ -82,11 +70,9 @@ body {
 
 
 .navbar.scrolled {
-    padding-right: 100px;
-    padding-left: 100px;
-    height: 75px;
- 
-    
+    padding-right: 50px;
+    padding-left: 50px;
+    height: 75px;  
 }
 .bg-light {
     transition:750ms ease;
@@ -149,6 +135,7 @@ background-color: transparent !important;
 
 .experience-1 {
         line-height: 10px;
+
     }
     
 #first {
