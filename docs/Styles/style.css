@@ -81,6 +81,12 @@ body {
 
 }
 
+.w-100 {
+    width: 100%!important;
+    /* margin-top: 60px; */
+    background-color: white;
+}
+
 /*---Standar Hamburger Menu (3 separate elements)---*/
 .navbar-toggler {
     border: none;
@@ -242,10 +248,10 @@ body {
 }
 .bg-light {
     transition:750ms ease;
-background-color: transparent !important;
+    background-color: transparent !important;
 }
 .bg-light.scrolled {
-    background-color: whitesmoke !important;
+    background-color: #ffffff !important;
     }
 
 .hero-section {
