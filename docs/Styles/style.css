@@ -9,10 +9,6 @@
 
     }
 
-    .div .col-sm {
-        line-height: normal;
-    }
-
     }
     @media (min-width: 481px) and (max-width: 767px) {
     .header-14-sub {min-height: 500px;}
@@ -20,10 +16,6 @@
     #title-section {
         padding-left: 50px;
         padding-bottom: 50px;
-    }
-
-    .div .col-sm {
-        line-height: none;
     }
 
     }
@@ -93,11 +85,14 @@ background-color: transparent !important;
 .sub-header {
     padding-top: 10px;
     letter-spacing: 3px;
+
 }
 
 .container-section {
- 
-    padding: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 80%;
+    margin: 0 auto;
     text-align: left;
     
 }
@@ -115,7 +110,10 @@ background-color: transparent !important;
     min-height: 400px; /* set default height */
     transition: all 0.5s ease; /* optional css transition effect */
     color: rgb(46, 50, 64);
-    padding: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 80%;
+    margin: 0 auto;
     /* display: flex;
     position: relative; */
 }
