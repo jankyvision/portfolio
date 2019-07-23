@@ -3,6 +3,7 @@
 @media (max-width: 480px) {
     .header-14-sub {min-height: 300px;}
 
+
     #title-section {
         /* padding-left: 50px; */
         padding-bottom: 50px;
@@ -25,6 +26,12 @@
         margin: 0 auto;
         text-align: center;
     }
+
+    #navbarText{
+        height: 100vh !important;
+
+        background-color: #ffffff;
+      }
 
     }
     @media (min-width: 481px) and (max-width: 767px) {
