@@ -30,6 +30,12 @@
     @media (min-width: 481px) and (max-width: 767px) {
     .header-14-sub {min-height: 500px;}
 
+    #navbarText{
+        height: 100vh !important;
+
+        background-color: #ffffff;
+      }
+
     #title-section {
         /* padding-left: 50px; */
         padding-bottom: 50px;
@@ -61,6 +67,8 @@
 
     @media (min-width: 768px) and (max-width: 979px) {
       .header-14-sub { min-height: 700px;}
+
+
 
     }
 
@@ -186,13 +194,13 @@ body {
     animation-duration: 0.8s;
   }
   
-  @media only screen and (max-width : 991px) {
+  /* @media only screen and (max-width : 991px) {
       #navbarText{
         height: 100vh !important;
 
         background-color: #ffffff;
       }
-  }
+  } */
   
   @media only screen and (min-width : 992px) {
       .animated {
@@ -382,6 +390,11 @@ footer {
   }
 
 
+  .job-title {
+      color: rgb(242, 180, 65);
+  }
+
+
   #universal-footer {
     padding-top:50px;
     width: 85%;
@@ -408,30 +421,6 @@ a {
     text-decoration: none;
     
   }
-
-/* footer .left {
-    
-    padding-top: 50px;
-    padding-left: 100px;
-    width: 50%;
-    color: rgb(46, 50, 64);
-} */
-
-
-  /* .contact {
-    padding-top:100px;
-} */
-
-/* footer .right {
-    padding: 50px;
-    width: 50%;
-    color: rgb(46, 50, 64);
-} */
-
-/* .social-icons {
-    padding-top: 50px;
-} */
-
 
 .fab {
     padding-right: 50px;
