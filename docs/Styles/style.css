@@ -92,14 +92,14 @@ body {
 .navbar-nav {
     padding-right: 50px;
     padding-left: 50px;
-    line-height: 50px;
+    /* line-height: 50px; */
 
 }
 
 .w-100 {
     width: 100%!important;
     /* margin-top: 60px; */
-    background-color: white;
+    /* background-color: white; */
 }
 
 /*---Standar Hamburger Menu (3 separate elements)---*/
