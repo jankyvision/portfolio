@@ -101,6 +101,16 @@ body {
     width: 100%!important;
     /* margin-top: 60px; */
     /* background-color: white; */
+    overflow:hidden;
+}
+
+.w-100-mobile {
+    height: 450px;
+    /* margin-top: 60px; */
+    /* background-color: white; */
+    float: right;
+    overflow: hidden;
+
 }
 
 /*---Standar Hamburger Menu (3 separate elements)---*/
@@ -433,6 +443,7 @@ body {
 .project-header {
     margin: 0!important;
     height: 500px;
+    overflow: hidden;
 }
 
 .first-project {
