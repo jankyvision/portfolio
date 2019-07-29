@@ -281,6 +281,7 @@ body {
 .sub-header {
     padding-top: 10px;
     letter-spacing: 3px;
+    color: rgb(242, 180, 65); 
 
 }
 
@@ -298,9 +299,6 @@ body {
     font-weight: bold;
 }
 
-.container-section p {
-    color: rgb(242, 180, 65); 
-}
 
 .summary {
     min-height: 400px; /* set default height */
@@ -383,9 +381,46 @@ body {
     }
 
     .home-tron-image {
-        background-image: url("../images/header-photo.png");
+        background-image: url(../images/me-full.png);
         background-size: cover;
+        margin-bottom: 0px;
+        border-radius: 0px;
+        background-position: bottom right;
+        height: 800px;
+        
 
+      }
+
+      .header-img {
+          padding-top: 50px;
+      }
+
+     
+      .btn-outline {
+        color: rgb(46, 50, 64);
+        background-color: #ffffff;
+        border-color:rgb(46, 50, 64);
+        font-weight: bold;
+        letter-spacing: 0.05em;
+        margin-top: 50px;
+      }
+      
+      .btn-outline {
+        color: rgb(46, 50, 64);
+        background-color: #ffffff;
+        border-color: rgb(46, 50, 64);
+        font-weight: bold;
+        border-radius: 5;
+      }
+      
+      .btn-outline:hover,
+      .btn-outline:active,
+      .btn-outline:focus,
+      .btn-outline.active {
+        background: rgb(46, 50, 64);
+        color: #ffffff;
+        border-color: rgb(46, 50, 64);
+        
       }
 
 .projects-bar {
