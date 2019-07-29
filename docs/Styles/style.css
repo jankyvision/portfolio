@@ -84,6 +84,7 @@ body {
     overflow: auto;
 }
 
+
 .navbar {
     height: 125px;
     padding: 0;  
@@ -380,6 +381,47 @@ body {
     width:100%;
     
     }
+
+    .home-tron-image {
+        background-image: url("../images/header-photo.png");
+        background-size: cover;
+
+      }
+
+.projects-bar {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+
+.project-header {
+    margin: 0!important;
+    height: 500px;
+}
+
+.first-project {
+    background-color: rgb(46, 50, 64);
+    color: white;
+}
+
+.second-project {
+    background-color: #E7E7E7;
+    color: rgb(46, 50, 64);
+}
+
+.third-project {
+   background-color: rgb(242, 180, 65);
+   color: white;
+}
+
+.fourth-project {
+    background-color: #E7E7E7;
+    color: rgb(46, 50, 64);
+}
+
+
+
 
 footer {
     position: bottom;
