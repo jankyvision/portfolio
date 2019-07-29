@@ -104,14 +104,6 @@ body {
     overflow:hidden;
 }
 
-.w-100-mobile {
-    height: 450px;
-    /* margin-top: 60px; */
-    /* background-color: white; */
-    float: right;
-    overflow: hidden;
-
-}
 
 /*---Standar Hamburger Menu (3 separate elements)---*/
 .navbar-toggler {
