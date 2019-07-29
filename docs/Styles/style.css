@@ -397,6 +397,35 @@ body {
           padding-top: 50px;
       }
 
+      .btn-outline-light {
+        color: #ffffff;
+        background-color: rgb(46, 50, 64);
+        border-color:#ffffff;
+        font-weight: bold;
+        letter-spacing: 0.05em;
+        margin-top: 50px;
+      }
+      
+      .btn-outline-light {
+        color: #ffffff;
+        background-color: rgb(46, 50, 64);
+        border-color: #ffffff;
+        font-weight: bold;
+        border-radius: 0;
+      }
+      
+      .btn-outline-light:hover,
+      .btn-outline-light:active,
+      .btn-outline-light:focus,
+      .btn-outline-light.active {
+        background: #ffffff;
+        color: rgb(46, 50, 64);
+        border-color: rgb(151, 151, 151);
+        
+      }
+
+      
+
      
       .btn-outline {
         color: rgb(46, 50, 64);
@@ -412,7 +441,7 @@ body {
         background-color: #ffffff;
         border-color: rgb(46, 50, 64);
         font-weight: bold;
-        border-radius: 5;
+        border-radius: 0;
       }
       
       .btn-outline:hover,
