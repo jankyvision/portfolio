@@ -92,6 +92,13 @@
     
     @media (min-width: 1200px) {
     .header-14-sub {min-height: 1200px;}
+
+    #project-img {
+      background-position: center bottom;
+      
+
+
+    }
     }
 
     @media (min-width: 768px) and (max-width: 979px) {
@@ -477,21 +484,39 @@ body {
       }
 
 .projects-bar {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+   
 
 }
 
 
 .project-header {
-    margin: 0!important;
-    height: 500px;
+    /* margin: 0!important;
+    height: 500px; */
     overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px!important;
+
+    
+}
+#project-img-mobile {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  
+}
+
+#project-img {
+  width: 100vmin;
+  
 }
 
 .first-project {
     background-color: rgb(46, 50, 64);
     color: white;
+    
 }
 
 .second-project {
