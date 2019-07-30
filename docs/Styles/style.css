@@ -460,7 +460,7 @@ body {
      
       .btn-outline {
         color: rgb(46, 50, 64);
-        background-color: #ffffff;
+        background-color: #E7E7E7;
         border-color:rgb(46, 50, 64);
         font-weight: bold;
         font-size: medium;
@@ -470,7 +470,7 @@ body {
       
       .btn-outline {
         color: rgb(46, 50, 64);
-        background-color: #ffffff;
+        background-color: #E7E7E7;
         border-color: rgb(46, 50, 64);
         font-weight: bold;
         border-radius: 0;
@@ -481,10 +481,41 @@ body {
       .btn-outline:focus,
       .btn-outline.active {
         background: rgb(46, 50, 64);
-        color: #ffffff;
+        color: #E7E7E7;
         border-color: rgb(46, 50, 64);
         
       }
+
+      .btn-outline-yellow {
+        color: rgb(46, 50, 64);
+        background-color: rgb(242, 180, 65);
+        border-color:rgb(46, 50, 64);
+        font-weight: bold;
+        font-size: medium;
+        letter-spacing: 0.05em;
+        margin-top: 50px;
+      }
+      
+      .btn-outline-yellow {
+        color: rgb(46, 50, 64);
+        background-color: rgb(242, 180, 65);
+        border-color: rgb(46, 50, 64);
+        font-weight: bold;
+        border-radius: 0;
+      }
+      
+      .btn-outline-yellow:hover,
+      .btn-outline-yellow:active,
+      .btn-outlineyellow:focus,
+      .btn-outline-yellow.active {
+        background: rgb(46, 50, 64);
+        color: #E7E7E7;
+        border-color: rgb(46, 50, 64);
+        
+      }
+
+
+
 
 .projects-bar {
     padding-top: 25px;
