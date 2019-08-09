@@ -109,6 +109,10 @@
 
     }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     overflow: auto;
@@ -348,6 +352,7 @@ body {
 .container-fluid {
     background-color: rgb(46, 50, 64);
     min-height: 600px;
+   
     
     }
 
@@ -356,6 +361,7 @@ body {
         width: 85%;
         margin: 0 auto;
         color: rgb(242, 180, 65);
+        
         
     }
 
@@ -380,6 +386,7 @@ body {
 .container-fluid1 {
     background-color: rgb(242, 180, 65);
     min-height: 600px;
+    
     
     }
 
