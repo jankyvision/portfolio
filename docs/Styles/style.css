@@ -492,7 +492,7 @@ body {
 }
 #project-img-mobile {
   width: 100%;
-  max-width: 350px;
+  /* max-width: 350px; */
   height: auto;
   
 }
