@@ -3,6 +3,7 @@
  $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
  });
 
+ //Back to top button
  $(document).ready(function(){
 	$(window).scroll(function () {
 			if ($(this).scrollTop() > 50) {
@@ -19,3 +20,5 @@
 			return false;
 		});
 });
+
+

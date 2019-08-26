@@ -1,9 +1,6 @@
 /* Responsive Design */
-
 @media (max-width: 480px) {
     .header-14-sub {min-height: 300px;}
-
-
     #title-section {
         /* padding-left: 50px; */
         padding-bottom: 50px;
@@ -11,55 +8,42 @@
         margin: 0 auto;
         text-align: center;
     }
-
     #social-icons {
         padding-left: 25px;
         width: 85%;
         margin: 0 auto;
         text-align: center;
     }
-
-
     #footer-menu {
         /* padding-bottom: 50px; */
         width: 85%;
         margin: 0 auto;
         text-align: center;
     }
-
     #navbarText{
         height: 100vh !important;
 
         background-color: #ffffff;
       }
-
       #home-tron-image {
         background-image: url(../images/me-full.png);
         background-size: cover;
         margin-bottom: 0px;
         border-radius: 0px;
         background-position: center center;
-        height: 500px;
-        
-
+        height: 500px; 
       }
-
       .projects-bar {
-       
        display: none;
-    
     }
-
     }
     @media (min-width: 481px) and (max-width: 767px) {
     .header-14-sub {min-height: 500px;}
-
     #navbarText{
         height: 100vh !important;
 
         background-color: #ffffff;
       }
-
     #title-section {
         /* padding-left: 50px; */
         padding-bottom: 50px;
@@ -67,22 +51,18 @@
         margin: 0 auto;
         text-align: center;
     }
-
     #social-icons {
         padding-left: 25px;
         width: 85%;
         margin: 0 auto;
         text-align: center;
     }
-
-
     #footer-menu {
         /* padding-bottom: 50px; */
         width: 85%;
         margin: 0 auto;
         text-align: center;
     }
-
     #home-tron-image {
         background-image: url(../images/me-full.png);
         background-size: cover;
@@ -90,24 +70,43 @@
         border-radius: 0px;
         background-position: center center;
         height: 500px;
-        
-
       }
-
     }
-    
-    @media (min-width: 1200px) {
-    .header-14-sub {min-height: 1200px;}
-
- 
-    }
-
     @media (min-width: 768px) and (max-width: 979px) {
       .header-14-sub { min-height: 700px;}
-
-
-
     }
+    @media only screen and (min-width : 992px) {
+      .animated {
+          /*CSS transitions*/
+          -o-transition-property: none !important;
+          -moz-transition-property: none !important;
+          -ms-transition-property: none !important;
+          -webkit-transition-property: none !important;
+          transition-property: none !important;
+          /*CSS transforms*/
+          -o-transform: none !important;
+          -moz-transform: none !important;
+          -ms-transform: none !important;
+          -webkit-transform: none !important;
+          transform: none !important;
+          /*CSS animations*/
+          -webkit-animation: none !important;
+          -moz-animation: none !important;
+          -o-animation: none !important;
+          -ms-animation: none !important;
+          animation: none !important;
+      }
+  
+      #navbarText{
+          height: auto;
+   
+      }
+  }
+    @media (min-width: 1200px) {
+    .header-14-sub {min-height: 1200px;}
+    }
+
+    /* End Responsive Design */
 
 html {
   scroll-behavior: smooth;
@@ -117,28 +116,24 @@ body {
     font-family: 'Montserrat', sans-serif;
     overflow: auto;
 }
-
-
 .navbar {
     height: 125px;
     padding: 0;  
 }
-
+.navbar-brand img {
+  margin-right: 10px;
+}
 .navbar-nav {
     padding-right: 50px;
     padding-left: 50px;
     /* line-height: 50px; */
-
 }
-
 .w-100 {
     width: 100%!important;
     /* margin-top: 60px; */
     /* background-color: white; */
     overflow:hidden;
 }
-
-
 /*---Standar Hamburger Menu (3 separate elements)---*/
 .navbar-toggler {
     border: none;
@@ -222,14 +217,11 @@ body {
   }
   
   /*---To center elements of the navbar (mobile)---*/
-  
   .navbar-brand{
     /* font-size: 1rem; */
     margin-left: 50px;
     color: rgb(46, 50, 64) !important;
-   
   }
-  
   /*---Custom AnimateCSS mobile menu items---*/
   .nav-item{
     -webkit-animation-duration: 0.8s; /* Chrome 3-42 & Safari 4-8 & Opera 15-29 */
@@ -238,45 +230,7 @@ body {
     animation-duration: 0.8s;
   }
   
-  /* @media only screen and (max-width : 991px) {
-      #navbarText{
-        height: 100vh !important;
-
-        background-color: #ffffff;
-      }
-  } */
   
-  @media only screen and (min-width : 992px) {
-      .animated {
-          /*CSS transitions*/
-          -o-transition-property: none !important;
-          -moz-transition-property: none !important;
-          -ms-transition-property: none !important;
-          -webkit-transition-property: none !important;
-          transition-property: none !important;
-          /*CSS transforms*/
-          -o-transform: none !important;
-          -moz-transform: none !important;
-          -ms-transform: none !important;
-          -webkit-transform: none !important;
-          transform: none !important;
-          /*CSS animations*/
-          -webkit-animation: none !important;
-          -moz-animation: none !important;
-          -o-animation: none !important;
-          -ms-animation: none !important;
-          animation: none !important;
-      }
-  
-      #navbarText{
-          height: auto;
-   
-      }
-  }
-/* .dropdown { position: static; }
-.dropdown-menu { width: 100%; text-align: center; }
-.dropdown-menu>li { display: inline-block; } */
-
 .mynav a {
     margin-right: 30px;
     
@@ -350,19 +304,19 @@ body {
 
 
 .container-fluid {
+    background-image: url(../images/design-portfolio1.png);
+    background-position: top left;
+    background-size: cover;
     background-color: rgb(46, 50, 64);
     min-height: 600px;
-   
-    
+
     }
 
  #experience {
         padding-top:100px;
         width: 85%;
         margin: 0 auto;
-        color: rgb(242, 180, 65);
-        
-        
+        color: rgb(242, 180, 65);    
     }
 
 .experience-1 {
@@ -386,6 +340,7 @@ body {
 .container-fluid1 {
     background-color: rgb(242, 180, 65);
     min-height: 600px;
+    
     
     
     }
@@ -463,24 +418,15 @@ body {
       }
 
       
-
-     
       .btn-outline {
         color: rgb(46, 50, 64);
-        background-color: #E7E7E7;
-        border-color:rgb(46, 50, 64);
-        font-weight: bold;
-        font-size: medium;
-        letter-spacing: 0.05em;
-        margin-top: 50px;
-      }
-      
-      .btn-outline {
-        color: rgb(46, 50, 64);
-        background-color: #E7E7E7;
+        background-color: #ffffff;
         border-color: rgb(46, 50, 64);
         font-weight: bold;
         border-radius: 0;
+        font-size: medium;
+        letter-spacing: 0.05em;
+        margin-top: 50px;
       }
       
       .btn-outline:hover,
@@ -661,4 +607,89 @@ a {
   bottom: 25px;
   right: 25px;
   display: none;
+}
+
+/* Portfolio Style */
+
+.portfolio-tron-image {
+  background-image: url(../images/Travelapp-header-04.png);
+  background-size: cover;
+  margin-bottom: 0px;
+  border-radius: 0px;
+  height: 800px;
+  background-color: white;
+
+}
+
+.project-title {
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+#project-overview-container {
+margin-top: 50px;
+margin-bottom: 100px;
+  
+}
+
+.full-width-image {
+  width: 100vw;
+  position: relative;
+  left: 50%;  
+  margin-left: -50vw;
+  text-align: center;
+  padding: 25px;
+}
+
+
+
+.full-width-image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+#project-section {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:25px;
+  margin-bottom:25px;
+
+}
+
+
+.design-process-header {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 140px;
+  padding-bottom: 20px;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  color: rgba(51, 51, 51, 0.3);
+  font-size: 54px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 10px;
 }
