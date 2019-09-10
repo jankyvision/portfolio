@@ -693,3 +693,7 @@ margin-bottom: 100px;
   text-align: center;
   letter-spacing: 10px;
 }
+
+a {
+  color: none!important;
+}
