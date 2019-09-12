@@ -19,7 +19,10 @@
         width: 85%;
         margin: 0 auto;
         text-align: center;
+        text-decoration: none;
     }
+
+
     #navbarText{
         height: 100vh !important;
 
@@ -393,6 +396,22 @@ body {
           padding-top: 50px;
       }
 
+      #resumeBtn {
+        background-color: #ffffff;
+      }
+
+      #resumeBtn:hover,
+      #resumeBtn:active,
+      #resumeBtn:focus,
+      #resumeBtn.active {
+        background: rgb(46, 50, 64);
+        color: #E7E7E7;
+        border-color: rgb(46, 50, 64);
+        transform: translateY(-7px);
+        
+        
+      }
+
       .btn-outline-light {
         color: #ffffff;
         background-color: rgb(46, 50, 64);
@@ -408,7 +427,10 @@ body {
         background-color: rgb(46, 50, 64);
         border-color: #ffffff;
         font-weight: bold;
-        border-radius: 0;
+        border-radius: 2;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
       }
       
       .btn-outline-light:hover,
@@ -418,19 +440,24 @@ body {
         background: #ffffff;
         color: rgb(46, 50, 64);
         border-color: rgb(151, 151, 151);
-        
+        transform: translateY(-7px);
+  
       }
 
       
       .btn-outline {
         color: rgb(46, 50, 64);
-        background-color: #ffffff;
+        background-color: #E7E7E7;
         border-color: rgb(46, 50, 64);
         font-weight: bold;
-        border-radius: 0;
+        border-radius: 2;
         font-size: medium;
         letter-spacing: 0.05em;
         margin-top: 50px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+
       }
       
       .btn-outline:hover,
@@ -440,6 +467,8 @@ body {
         background: rgb(46, 50, 64);
         color: #E7E7E7;
         border-color: rgb(46, 50, 64);
+        transform: translateY(-7px);
+        
         
       }
 
@@ -451,6 +480,8 @@ body {
         font-size: medium;
         letter-spacing: 0.05em;
         margin-top: 50px;
+        
+        
       }
       
       .btn-outline-yellow {
@@ -458,7 +489,10 @@ body {
         background-color: rgb(242, 180, 65);
         border-color: rgb(46, 50, 64);
         font-weight: bold;
-        border-radius: 0;
+        border-radius: 2;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
       }
       
       .btn-outline-yellow:hover,
@@ -468,6 +502,8 @@ body {
         background: rgb(46, 50, 64);
         color: #E7E7E7;
         border-color: rgb(46, 50, 64);
+        transform: translateY(-7px);
+
         
       }
 
@@ -477,10 +513,14 @@ body {
 .projects-bar {
     padding-top: 25px;
     padding-bottom: 25px;
-    font-size: 11px;
     text-transform: uppercase;
-   
+}
 
+.projects-bar:hover {
+  color: rgb(242, 180, 65);
+  opacity: 0.7;
+  text-decoration: none;
+  
 }
 
 
@@ -582,6 +622,7 @@ a {
     text-decoration: none;
     border-radius: 50%;
     border-color: rgb(46, 50, 64);
+ 
     
   }
 
@@ -589,6 +630,7 @@ a {
   .fab:hover {
     color: rgb(242, 180, 65);
     opacity: 0.7;
+    text-decoration: none;
   }
 
 .fab fa-linkedin-in {
