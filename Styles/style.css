@@ -260,7 +260,7 @@ body {
     height: 75px;  
 }
 .bg-light {
-    transition:750ms ease;
+    transition:750ms ease-in;
     background-color: transparent !important;
 }
 .bg-light.scrolled {
@@ -311,7 +311,7 @@ body {
 
 
 .container-fluid {
-    background-image: url(../images/design-portfolio1.png);
+    /* background-image: url(../images/design-portfolio1.png); */
     background-position: top left;
     background-size: cover;
     background-color: rgb(46, 50, 64);
