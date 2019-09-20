@@ -700,6 +700,13 @@ margin-bottom: 100px;
   width: 75%;
 }
 
+.gif-image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
 
 #project-section {
   display: flex;
