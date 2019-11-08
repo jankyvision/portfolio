@@ -667,6 +667,16 @@ a {
 
 }
 
+.portfolioArtpass-tron-image {
+  background-image: url(../images/artpassHeader.png);
+  background-size: cover;
+  margin-bottom: 0px;
+  border-radius: 0px;
+  height: 800px;
+  background-color: white;
+
+}
+
 .project-title {
   height: 10em;
   display: flex;
