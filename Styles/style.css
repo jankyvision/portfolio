@@ -29,7 +29,7 @@
         background-color: #ffffff;
       }
       #home-tron-image {
-        background-image: url(../images/me-full.png);
+        background-image: url(../images/me-full.jpg);
         background-size: cover;
         margin-bottom: 0px;
         border-radius: 0px;
@@ -67,7 +67,7 @@
         text-align: center;
     }
     #home-tron-image {
-        background-image: url(../images/me-full.png);
+        background-image: url(../images/me-full.jpg);
         background-size: cover;
         margin-bottom: 0px;
         border-radius: 0px;
@@ -382,7 +382,7 @@ body {
     }
 
     .home-tron-image {
-        background-image: url(../images/me-full.png);
+        background-image: url(../images/me-full.jpg);
         background-size: cover;
         margin-bottom: 0px;
         border-radius: 0px;
