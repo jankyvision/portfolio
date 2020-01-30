@@ -17,6 +17,16 @@
   width: 100%;
 }
 
+.tabs {
+  padding-bottom: 25px;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.nav-pills .nav-link.active{
+  background-color: rgb(46, 50, 64);
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
