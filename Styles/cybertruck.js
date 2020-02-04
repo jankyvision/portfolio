@@ -97,6 +97,8 @@ function loop(){
     requestAnimationFrame(loop);
 }
 
+
+
 onkeydown = d=> k[d.key] = 1;
 onkeyup = d=> k[d.key] = 0;
 
@@ -112,5 +114,6 @@ function restart(){
 loop();
 
 var instructions = document.createElement("div");
-instructions.innerHTML += "[up] [down] = accelerate <br> [Left] [Rigth] = rotate";
+instructions.innerHTML += "[up] [down] = accelerate <br> [Left] [Right] = rotate";
 document.body.appendChild(instructions);
+
