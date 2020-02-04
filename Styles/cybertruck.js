@@ -1,4 +1,3 @@
-
 var c = document.createElement("canvas");
 var ctx = c.getContext("2d");
 c.width = 720; 
@@ -60,7 +59,7 @@ var Player =  function(){
         ctx.save();
         ctx.translate(this.x, this.y - 3);
         ctx.rotate(this.rot);
-        ctx.drawImage(this.img, -15, -15, 30, 30);
+        ctx.drawImage(this.img, -15, -15, 60, 30);
         ctx.restore();
     }
 }
