@@ -53,6 +53,7 @@
      <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="Styles/scrolly.css">
     
     <link rel="shortcut icon" type="image/x-icon" href="./images/portfolioLogo.png" />
     <title>My Work - Austin Simpkins</title>
@@ -76,12 +77,17 @@
                 </div>
                     <div class="collapse navbar-collapse justify-content-right mynav mr-lg-5" id="navbarText">
                       <ul class="navbar-nav ml-auto">
-                          <li class="nav-item active mx-2 animated fadeInDown">
-                              <a class="nav-link" href="index">Work <span class="sr-only">(current)</span></a>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Work
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#first-project">UX/UI Projects</a>
+                                <a class="dropdown-item" href="photos">Photos</a>
+                                <a class="dropdown-item" href="#">Videos</a>
+                              </div>
                             </li>
-                            <li class="nav-item mx-2 animated fadeInDown">
-                              <a class="nav-link" href="photos">Photos</a>
-                            </li>
+                            
                         <li class="nav-item  mx-2 animated fadeInDown">
                           <a class="nav-link" href="about">About </a>
                         </li>
@@ -97,6 +103,7 @@
                   </nav>
 
                   <div class="jumbotron home-tron-image" id="home-tron-image">
+                  
                     <div class="container" id="home-header-text">
                       <div class="row header-img">
                         <div class="col">
@@ -106,13 +113,13 @@
 
                           <a class="btn btn-primary btn-lg btn-outline" id="resumeBtn" href="mailto:hello@austinsimpkins.com" role="button">Contact</a>
                         </div>
-                        <div class="col">
-                
-                        </div>
+                        <!-- <div class="col">
+                        </div> -->
                       </div>
                     </div>
-                
                   </div>
+                  
+
                   
                    <div class="projects-bar">
                       <ul class="nav justify-content-center">
