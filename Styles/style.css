@@ -34,7 +34,7 @@
         background-color: #ffffff;
       }
       #home-tron-image {
-        background-image: url(../images/me-full.jpg);
+        background-image: url(../images/me-full2.png);
         background-size: cover;
         margin-bottom: 0px;
         border-radius: 0px;
@@ -72,7 +72,7 @@
         text-align: center;
     }
     #home-tron-image {
-        background-image: url(../images/me-full.jpg);
+        background-image: url(../images/me-full2.png);
         background-size: cover;
         margin-bottom: 0px;
         border-radius: 0px;
@@ -273,7 +273,7 @@ body {
     }
 
 .hero-section {
-    background-color: #ffffff;
+
     max-width: 100%;
     min-height: 300px;
     transition: all 0.5s ease;
@@ -387,7 +387,7 @@ body {
     }
 
     .home-tron-image {
-        background-image: url(../images/me-full.jpg);
+        background-image: url(../images/me-full2.png);
         background-size: cover;
         margin-bottom: 0px;
         border-radius: 0px;
