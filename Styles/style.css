@@ -34,12 +34,13 @@
         background-color: #ffffff;
       }
       #home-tron-image {
-        background-image: url(../images/me-full2.png);
+        background-image: url(../images/dark-mode.png);
         background-size: cover;
         margin-bottom: 0px;
         border-radius: 0px;
         background-position: center center;
         height: 500px; 
+       
       }
       .projects-bar {
        display: none;
@@ -72,12 +73,13 @@
         text-align: center;
     }
     #home-tron-image {
-        background-image: url(../images/me-full2.png);
+        background-image: url(../images/dark-mode.png);
         background-size: cover;
         margin-bottom: 0px;
         border-radius: 0px;
         background-position: center center;
         height: 500px;
+     
       }
 
       .projectTitle {
@@ -270,7 +272,7 @@ body {
     background-color: transparent !important;
 }
 .bg-light.scrolled {
-    background-color: #F2F3F7 !important;
+    background-color: #F2F3F7!important;
     }
 
 .hero-section {
@@ -295,6 +297,11 @@ body {
     margin: 0 auto;
     text-align: left;
     
+}
+
+.darkmode-h1 {
+  color: #F2F3F7;
+
 }
 
 .container-section h1 {
@@ -388,13 +395,13 @@ body {
     }
 
     .home-tron-image {
-        background-image: url(../images/me-full2.png);
+        background-image: url(../images/dark-mode.png);
         background-size: cover;
         margin-bottom: 0px;
         border-radius: 0px;
         background-position: top right;
         height: 600px;
-        
+      
 
       }
 
