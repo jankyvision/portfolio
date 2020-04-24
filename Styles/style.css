@@ -164,7 +164,7 @@ body {
     width: 22px;
     border-radius: 1px;
     display: block;
-    background-color: rgb(46, 50, 64);
+    background-color: #F2F3F7;
       -webkit-transition: all 0.2s;
       transition: all 0.2s;
   }
@@ -712,6 +712,7 @@ a {
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin: 50px;
 
 }
 
