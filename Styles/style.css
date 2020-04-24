@@ -235,7 +235,7 @@ body {
   .navbar-brand{
     /* font-size: 1rem; */
     margin-left: 50px;
-    color: rgb(46, 50, 64) !important;
+    color: #F2F3F7!important;
   }
   /*---Custom AnimateCSS mobile menu items---*/
   .nav-item{
@@ -243,6 +243,10 @@ body {
     -moz-animation-duration: 0.8s; /* Firefox 5-15 */
     -o-animation-duration: 0.8s; /* Opera 12-14 */
     animation-duration: 0.8s;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: #F2F3F7;
   }
   
   
@@ -269,10 +273,10 @@ body {
 }
 .bg-light {
     transition:750ms ease-in;
-    background-color: transparent !important;
+    background-color: #2A2A2C!important;
 }
 .bg-light.scrolled {
-    background-color: #F2F3F7!important;
+    background-color: #2A2A2C!important;
     }
 
 .hero-section {
