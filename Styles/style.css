@@ -235,7 +235,7 @@ body {
   .navbar-brand{
     /* font-size: 1rem; */
     margin-left: 50px;
-    color: #F2F3F7!important;
+    color: #2A2A2C!important;
   }
   /*---Custom AnimateCSS mobile menu items---*/
   .nav-item{
@@ -246,7 +246,7 @@ body {
   }
 
   .navbar-light .navbar-nav .nav-link {
-    color: #F2F3F7;
+    color: #2A2A2C;
   }
   
   
@@ -273,10 +273,10 @@ body {
 }
 .bg-light {
     transition:750ms ease-in;
-    background-color: #2A2A2C!important;
+    background-color: #F2F3F7!important;
 }
 .bg-light.scrolled {
-    background-color: #2A2A2C!important;
+    background-color: #F2F3F7!important;
     }
 
 .hero-section {
@@ -304,7 +304,7 @@ body {
 }
 
 .darkmode-h1 {
-  color: #F2F3F7;
+  color: #2A2A2C;
 
 }
 
@@ -399,7 +399,7 @@ body {
     }
 
     .home-tron-image {
-        background-image: url(../images/dark-mode.png);
+        background-image: url(../images/me-full2.png);
         background-size: cover;
         margin-bottom: 0px;
         border-radius: 0px;
