@@ -34,7 +34,7 @@
         background-color: #ffffff;
       }
       #home-tron-image {
-        background-image: url(../images/dark-mode.png);
+        background-image: url(../images/me-full2.png);
         background-size: cover;
         margin-bottom: 0px;
         border-radius: 0px;
@@ -73,7 +73,7 @@
         text-align: center;
     }
     #home-tron-image {
-        background-image: url(../images/dark-mode.png);
+        background-image: url(../images/me-full2.png);
         background-size: cover;
         margin-bottom: 0px;
         border-radius: 0px;
@@ -164,7 +164,7 @@ body {
     width: 22px;
     border-radius: 1px;
     display: block;
-    background-color: #F2F3F7;
+    background-color: #2A2A2C;
       -webkit-transition: all 0.2s;
       transition: all 0.2s;
   }
